@@ -57,12 +57,15 @@ class Interfase {
             
             Toastify({
                 text: "Agregado",
-                duration: 3000,
-                position: "left",
-                gravity: "top",
+                duration: 1500,
+                position: "center",
+                gravity: "bottom",
+                style: {
+                    background: "#d6a26d",
+                }
             
             }).showToast();
-            
+
         });
             
 
