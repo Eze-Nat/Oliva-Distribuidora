@@ -1,0 +1,138 @@
+/* Inicio */
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+.hero {
+    min-height: calc(100vh - 60px);
+    background: url("/assets/img/fondovinoyques.jpeg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 2rem;
+    &-title {
+        font-size: 3.4rem;
+        text-transform: uppercase;
+        letter-spacing: $mainSpacing;
+        margin-bottom: 3rem;
+    }
+    &-btn {
+        padding: 1rem 3rem;
+        margin: 1rem;
+        text-transform: uppercase;
+        letter-spacing: $mainSpacing;
+        font-size: 1rem;
+        background: $primaryColor;
+        color: $mainWhite;
+        border: 1px solid $primaryColor;
+        transition: $mainTransition;
+        cursor: pointer;
+        &:hover {
+            background: transparent;
+            color: $primaryColor;
+        }
+    }
+}
+
+/* 
+main {
+    background-color: #000000da;
+    padding-top: 2vh;
+}
+
+.usPage {
+    @include flex(column, space-between, center, 0);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
+}
+
+.bgInicio {
+    flex-basis: 80%;
+}
+
+.bgImg {
+    width: 80vh;
+    height: 80vh;
+    opacity: 0.3;
+    display: block;
+}
+
+.homeCn {
+    color: $secondary;
+    width: 100%;
+    align-items: center;
+
+    h1 {
+        font-size: map-get($fs , Title );
+        top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $principal;
+        animation-name: efectocn;
+        animation-iteration-count: 5;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        font-family: $font2;
+        font-weight: lighter;
+    }
+}
+
+
+
+@keyframes efectocn {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.2;
+    }
+
+    20% {
+        opacity: 0.4;
+    }
+
+    30% {
+        opacity: 0.6;
+    }
+
+    40% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.8;
+    }
+
+    70% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.4;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */

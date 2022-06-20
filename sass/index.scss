@@ -1,0 +1,22 @@
+/* VARIABLES */
+@import './misc/variables';
+
+/* GLOBALES */
+@import './misc/mixins';
+@import './misc/normalize';
+
+/* PARTIALS */
+@import './partials/header';
+@import './partials/footer';
+
+/* VIEWS */
+
+@import './view/home';
+@import './view/productos';
+@import './view/presupuesto';
+@import './view/contacto';
+
+
+/* MEDIA QUERYS */
+
+@import './misc/media';

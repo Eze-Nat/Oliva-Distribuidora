@@ -1,0 +1,45 @@
+{
+"items": [
+{
+    "id": "1",
+    "nombre": "Galileo Blend Tinto",
+    "imagen": "./assets/img/vinogalileo.jpg",
+    "precio": "950",
+    "cantidad": "0"
+},
+{
+    "id": "2",
+    "nombre": "Pragmatico Malbec",
+    "imagen": "./assets/img/vinopragmatico.jpg",
+    "precio": "820",
+    "cantidad": "1"
+},
+{
+    "id": "3",
+    "nombre": "Ejes Malbec",
+    "imagen": "./assets/img/vinosejes.jpg",
+    "precio": "500",
+    "cantidad": "1"
+},
+{
+    "id": "4",
+    "nombre": "Casa Araujo Cask Malbec",
+    "imagen": "./assets/img/vinocasaaraujo.jpg",
+    "precio": "850",
+    "cantidad": "1"
+},
+{
+    "id": "5",
+    "nombre": "Nucha Malbec Organico",
+    "imagen": "./assets/img/vinonucha.jpg",
+    "precio": "950",
+    "cantidad": "1"
+},
+{
+    "id": "6",
+    "nombre": "Septima Malbec",
+    "imagen": "./assets/img/vinoseptimamalbec.jpg",
+    "precio": "750",
+    "cantidad": "1"
+}
+] }

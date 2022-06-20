@@ -1,0 +1,33 @@
+/* Helpers */
+
+/* @mixin flex($direction: row, $justify: space-between, $align: center, $gap: 0) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin grid($columns: 0, $csize: 1fr, $rows: 0, $rsize: 1fr, $gap: 0) {
+    display: grid;
+    grid-template-columns: repeat($columns, $csize);
+    grid-template-rows: repeat($rows, $rsize);
+    grid-gap: $gap;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+
+img {
+    width: 100%;
+}
+
+.sectionActive {
+    border-bottom: 2px solid grey;
+} */
