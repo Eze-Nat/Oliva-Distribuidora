@@ -82,24 +82,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //enviar por whatsapp
+document.getElementById("enviar-pedido").addEventListener("click", iniciarChatear)
 
 function iniciarChatear(){
-    const wa = document.getElementById("enviar-pedido");
-    wa.addEventListener("click", ()=>{
-        window.location.href = 'https://wa.me/543416878831/?text=Gracias' + 'por' + ' su ' + 'compra ' + carrito
-    })
+    let mensaje = "%0A";
+    let total = 0;
+    
+    for(const producto of carrito){
+        mensaje += `-${producto.nombre} (${producto.cantidad}): $${producto.precio * producto.cantidad}%0A`
+        total += producto.precio * producto.cantidad;
+    }
+
+       window.open(`https://wa.me/543416878831/?text=%0APedido:${mensaje}**TOTAL: $${total}**%0AGracias!`)
+
     
 }
-
-const wa = document.getElementById("enviar-pedido");
-
-wa.addEventListener("submit", event => {
-    event.preventDefault();
-    const wa = Productos;
-    
-;
-
-const URL = `https://api.whatsapp.com/send?phone=${items.id}&text=Hi, ${formData.name}%20you%20have%20scheduled%20an%20appointment%20on%20${formData.date}%20with%20the%20following%20instructions%20&source=&data=`;
-
-  window.open(URL, "_blank");
-});

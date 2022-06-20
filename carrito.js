@@ -24,6 +24,8 @@ class Interfase {
             `;
         });
         productosDOM.innerHTML = resultado;
+
+        
     }
     getCarritoBtn() {
         const btns = [...document.querySelectorAll(".bag-btn")];
@@ -52,7 +54,19 @@ class Interfase {
             this.agregarItemCarrito(itemsCarrito);
                 // mostrar carrito
             this.mostrarCarrito();
-            });
+            
+            Toastify({
+                text: "Agregado",
+                duration: 3000,
+                position: "left",
+                gravity: "top",
+            
+            }).showToast();
+            
+        });
+            
+
+
 
         })
     }
