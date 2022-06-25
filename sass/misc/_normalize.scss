@@ -14,17 +14,12 @@
 /* Global */
 html {
     scroll-behavior: smooth;
-    /* font-size: 62.5%; */
     color: $primaryColor;
-    /* font-family: $font1 */
+
 }
 
 body {
-    /*     display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    background-color: $backcolor1;
-     */
+
     color: $mainBlack;
     background: $mainWhite;
     font-family: "Lato", sans-serif;

@@ -83,38 +83,3 @@
     }
 }
 
-
-
-
-
-/* .gallery {
-    &Product {
-        @include grid(3, 1fr, null, 40vh, 10px);
-        grid-auto-rows: 40vh;
-        padding: 20px;
-    } 
-
-    &Img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    &Title {
-        justify-self: center;
-        font-size: map-get($fs , Large );
-        text-align: center;
-    }
-
-    .subMenu {
-        @include flex(row, space-around, center, 0);
-        width: 100vw;
-        margin-bottom: 10px;
-        
-
-        &Item {
-            justify-items: center;
-            font-size: map-get($fs , Medium );
-        }
-    }
-} */

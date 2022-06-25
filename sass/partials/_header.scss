@@ -1,12 +1,4 @@
-/*Navbar y Header*/
 
-
-/*     .navbar {
-        @include flex(row, space-between, center, 0);
-        min-height: 5vh;
-        padding: 0 2rem;
-
-    } */
     .navbar {
         background: $mainWhite;
         position: sticky;
@@ -50,60 +42,4 @@
     Header {
         background-color: $mainWhite;
     }
-    /* 
-    .logo {
-        flex-basis: 7%;
-    }
-
-    .section {
-        @include flex(row, space-between, center, 0);
-        flex-basis: 30%;
-        
-        &Item {
-            font-size: 2em;
-            font-weight: bold;
-
-            .subMenu {
-                display: none;
-                position: absolute;
-
-                &Link {
-
-                    padding: 1rem;
-                    color: $principal;
-                    transition: all .4s ease-in-out;
-
-                    &:hover {
-                        background-color: $principal;
-                        box-shadow: 0 0 10px $principal;
-                        color: $secondary;
-                    }
-                }
-            }
-
-
-
-            &:hover {
-                .subMenu {
-                    display: block;
-                    z-index: 1;
-                }
-            }
-
-
-
-        }
-
-        &Link {
-            padding: 1rem;
-            font-size: 1em;
-            transition: all .4s ease-in-out;
-
-            &:hover {
-                background-color: $principal;
-                box-shadow: 0 0 10px $principal;
-                color: $secondary;
-            }
-        }
-    }
- */
+  
